@@ -65,6 +65,9 @@ on init
     chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
     chmod 0660 /dev/cpuset/camera-daemon/tasks
 
+    # Change permissions for /dev/diag
+    chmod 0666 /dev/diag
+
 on fs
     mount_all --early /vendor/etc/fstab.qcom
 
