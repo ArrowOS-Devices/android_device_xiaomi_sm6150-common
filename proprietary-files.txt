@@ -44,7 +44,7 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
 # Alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
+product/app/PowerOffAlarm/PowerOffAlarm.apk
 -vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 -vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -84,14 +84,14 @@ vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 -vendor/bin/hvdcp_opti
 
 # Certificate Authority
--vendor/app/CACertService/CACertService.apk
+vendor/app/CACertService/CACertService.apk
 -vendor/lib64/libcacertclient.so
 -vendor/lib64/libjnihelper.so
 -vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # CNE
--vendor/app/CneApp/CneApp.apk
--vendor/app/IWlanService/IWlanService.apk
+vendor/app/CneApp/CneApp.apk
+vendor/app/IWlanService/IWlanService.apk
 -vendor/bin/cnd
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
@@ -183,7 +183,7 @@ system_ext/framework/dpmapi.jar
 -system_ext/lib64/libdpmfdmgr.so
 -system_ext/lib64/libdpmframework.so
 -system_ext/lib64/libdpmtcm.so
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 -vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 -vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE=com.qualcomm.qti.dpm.api@1.0_vendor
@@ -299,8 +299,8 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 -vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
 # Hotword enrollment - from neobuddy89
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED|91c49e2f1f95fe76952eb55d7a936a997685b964
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED|91c49e2f1f95fe76952eb55d7a936a997685b964
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED|89b2c917c0c35489f10306f1627b2cf7cf6b59cf
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|0492cd3db2e253e23b78e56fa8ea7b3a4b15edeb
 product/etc/permissions/privapp-permissions-google-hotword.xml|325ff76a3a1daa6eb1bdf0eb659fa31fa6e9d4ed
@@ -316,7 +316,7 @@ product/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml|a062041908164045e8
 -system_ext/lib64/lib-imsvtutils.so
 -system_ext/lib64/vendor.qti.diaghal@1.0.so
 -system_ext/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE=vendor.qti.imsrtpservice@3.0_system_ext
--system_ext/priv-app/ims/ims.apk
+system_ext/priv-app/ims/ims.apk
 -vendor/bin/imsdatadaemon
 -vendor/bin/imsqmidaemon
 -vendor/bin/imsrcsd
@@ -468,11 +468,11 @@ system_ext/etc/permissions/qti_permissions.xml
 -vendor/lib/libqmi.so
 
 # RIL
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/framework/qcrilhook.jar
 system_ext/framework/qti-telephony-common.jar
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/bin/adpl
 -vendor/bin/hw/qcrild
 -vendor/bin/netmgrd
@@ -544,14 +544,14 @@ vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/10_version_update_ecc_table.sql
 
 # Soter
--app/SoterService/SoterService.apk
+app/SoterService/SoterService.apk
 -vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 -vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 -vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Time
--vendor/app/TimeService/TimeService.apk
+vendor/app/TimeService/TimeService.apk
 -vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 -vendor/lib64/libtime_genoff.so
